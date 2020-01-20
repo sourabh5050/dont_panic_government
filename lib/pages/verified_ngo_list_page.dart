@@ -1,36 +1,35 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dont_panic_government/components.dart/ngo_tile.dart';
+import 'package:dont_panic_government/components.dart/verified_ngo_list.dart';
 import 'package:dont_panic_government/constants.dart';
 import 'package:flutter/material.dart';
 
 final _firestore = Firestore.instance;
 
-class NgoRegistration extends StatefulWidget {
+class VerifiedNgoPage extends StatefulWidget {
   @override
-  _NgoRegistrationState createState() => _NgoRegistrationState();
+  _VerifiedNgoPageState createState() => _VerifiedNgoPageState();
 }
 
-class _NgoRegistrationState extends State<NgoRegistration> {
-  @override
+class _VerifiedNgoPageState extends State<VerifiedNgoPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: mainColor,
         centerTitle: true,
-        title: Text('NGO Verification Page'),
+        title: Text('Verified NGOs'),
       ),
       body: StreamBuilder(
-          stream: _firestore.collection('newAccountRequests').snapshots(),
+          stream: _firestore.collection('verifiedNgos').snapshots(),
           builder: (context, snapshot) {
             if (!snapshot.hasData) {
               return Center(child: Text('NO DATA'));
             }
             final documents = snapshot.data.documents;
-            List<NgoInfo> ngoRequesrList = [];
+            List<VerifiedNgoList> ngoRequesrList = [];
             for (var doc in documents) {
               print(doc.data['name']);
               ngoRequesrList.add(
-                NgoInfo(
+                VerifiedNgoList(
                   name: doc.data['name'],
                   id: doc.data['id'],
                   email: doc.data['email'],
