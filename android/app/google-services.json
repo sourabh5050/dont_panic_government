@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "765171762384",
+    "firebase_url": "https://dontpanic-2020.firebaseio.com",
+    "project_id": "dontpanic-2020",
+    "storage_bucket": "dontpanic-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765171762384:android:317c2d4d0ebac9dce30ad5",
+        "android_client_info": {
+          "package_name": "com.example.dont_panic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765171762384-7oe7t3l58emksm39l4rlp1g5lifjl4bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC6hJhuRIMQv31mAFCBT0PS75lOGdMn5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765171762384-7oe7t3l58emksm39l4rlp1g5lifjl4bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765171762384:android:19e97ce358b80ccee30ad5",
+        "android_client_info": {
+          "package_name": "com.sourabhpisipati.dont_panic_government"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765171762384-7oe7t3l58emksm39l4rlp1g5lifjl4bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC6hJhuRIMQv31mAFCBT0PS75lOGdMn5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765171762384-7oe7t3l58emksm39l4rlp1g5lifjl4bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765171762384:android:f1cb35f2e00cd155e30ad5",
+        "android_client_info": {
+          "package_name": "com.sourabhpisipati.dont_panic_ngo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765171762384-7oe7t3l58emksm39l4rlp1g5lifjl4bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC6hJhuRIMQv31mAFCBT0PS75lOGdMn5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765171762384-7oe7t3l58emksm39l4rlp1g5lifjl4bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
